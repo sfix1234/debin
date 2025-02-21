@@ -1,5 +1,21 @@
 # Files Description
 
+## data/companies/
+Directory containing verified company information from various sources.
+
+### tokyo_truck_association_members.csv
+A CSV file containing verified Tokyo Truck Association member companies.
+
+Fields:
+- 支部名: Branch name within the Tokyo Truck Association
+- 事業者名: Company name
+- verified: Website verification status (True/False)
+- website: Company website URL if found
+
+Total companies: 3,317
+Source: 東京都トラック協会 会員名簿 (令和元年7月現在)
+Verification: Automated website existence check with 15-second timeout per company
+
 ## tiktok_research/
 Directory containing data about TikTok live streams with under 50 viewers.
 
